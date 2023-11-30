@@ -1,0 +1,49 @@
+/* styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: #F4ECD8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    background: white;
+    margin: 40px auto;
+    padding: 20px;
+    max-width: 700px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.content h1 {
+    color: #000; /* タイトルの色を黒色に変更 */
+    font-family: 'HG行書体'; /* 行書体フォントを適用 */
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.content h2 {
+    color: red;
+    text-align: center;
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+@media (max-width: 720px) {
+    .content, .footer {
+        width: 95%;
+    }
+}
