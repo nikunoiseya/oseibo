@@ -59,7 +59,7 @@ img[alt="December Calendar"] {
 }
 @media screen and (orientation: portrait) {
   img[alt="December Calendar"] {
-    top: 470px;
+    top: 600px;
   }
 }
 @media screen and (orientation: landscape) {
