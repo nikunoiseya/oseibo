@@ -40,10 +40,20 @@ body {
     position: fixed;
     bottom: 0;
     width: 100%;
-}
+    z-index: 5;}
 
 @media (max-width: 720px) {
     .content, .footer {
         width: 95%;
-    }
+        z-index: 5;}
+}
+
+/* Added styles for calendar image positioning */
+img[alt="December Calendar"] {
+  width: 280px; /* Adjust the width of the image to fit the space */
+  height: auto; /* Maintain the aspect ratio */
+  position: absolute; /* Absolute position with respect to the nearest positioned ancestor */
+  top: 270px; /* Adjust the top position based on the provided image */
+  left: 550px; /* Adjust the left position based on the provided image */
+  z-index: 9999; /* Keep it above other elements */
 }
